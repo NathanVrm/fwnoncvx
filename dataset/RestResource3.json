@@ -1,0 +1,15 @@
+{
+	"name": "RestResource3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestService1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "/1.1/projects/3150/inbox/search.json"
+		},
+		"schema": []
+	}
+}
